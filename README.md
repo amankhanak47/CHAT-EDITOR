@@ -1,10 +1,10 @@
-##### This app has two side 
-### 1. Frontend
-### 2. backend
-
+# This app has two side 
 ## 1. Frontend
+## 2. backend
 
-# Getting Started with Create React App
+# 1. Frontend
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
