@@ -1,0 +1,197 @@
+.chat{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #95f0df;
+}
+.chat-box{
+    height: 80vh;
+    width: 60vw;
+    border: 1px solid pink;
+    background-color: #b9f8eb;
+}
+.chat-header{
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #d3b2d7;
+
+
+}
+.img{
+    height: 4.4vh;
+    width: 150px;
+    margin: 0.5vh;
+}
+.leave-btn{
+    width: 100px;
+    height: 4vh;
+    margin: 0.5vh;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+    background: rgb(215, 249, 241);
+    
+}
+.text-color{
+    text-decoration: none;
+
+}
+.chat-msg{
+    height: 53vh;
+    /* max-height: 50vh; */
+    /* overflow-y: scroll; */
+}
+.text-editor{
+    background-color: black;
+}
+.chat-footer{
+    height: 30vh;
+    /* position: sticky; */
+    bottom: 2vh;
+}
+.jodit-toolbar-button {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 35px;
+    width: 35px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-width: 3px;
+    overflow: hidden;
+}
+.jodit-status-bar {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 0 0 3px 3px;
+    color: rgba(0, 0, 0, .75);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: none;
+    font-size: 11px;
+    height: 0px;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    overflow: hidden;
+    padding: 0 calc(8px/2);
+    text-transform: uppercase;
+}
+.jodit-react-container {
+    background-color: white;
+    /* color: white; */
+}
+.editor-footer{
+    background-color: white;
+    /* height: 40px; */
+    
+    position: sticky;
+    bottom: 1vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.send-btn{
+    width: 100px;
+        height: 35px;
+        margin: 0px 10px;
+        border: none;
+        border-radius: 10px;
+        font-size: large;
+        background: rgb(243, 250, 177);
+        float: right;
+        align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  
+    
+        .chat-box {
+            height: 100vh;
+            width: 100vw;
+            border: 1px solid pink;
+            background-color: #b9f8eb;
+        }
+    
+        .chat-header {
+            height: 6vh;
+            display: flex;
+            justify-content: space-between;
+            background-color: #d3b2d7;
+    
+    
+        }
+    
+        .img {
+            height: 4.4vh;
+            width: 150px;
+            margin: 0.5vh;
+        }
+    
+        .leave-btn {
+            width: 100px;
+            height: 4vh;
+            margin: 0.5vh;
+            border: none;
+            border-radius: 10px;
+            font-size: large;
+            background: rgb(215, 249, 241);
+    
+        }
+    
+        .text-color {
+            text-decoration: none;
+    
+        }
+    
+        .chat-msg {
+          height: 63vh;
+        }
+    
+       
+        .jodit-toolbar-button__button{
+            width: 10px;
+        }
+                .jodit-toolbar-button {
+                    -webkit-box-align: center;
+                    -ms-flex-align: center;
+                    align-items: center;
+                    border: 1px solid transparent;
+                    border-radius: 3px;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    height: 25px;
+                    width: 25px;
+                    -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                    justify-content: center;
+                    min-width: 3px;
+                    overflow: hidden;
+                }
+                                .editor-footer {
+                                    background-color: white;
+                                    height: 40px;
+                position: sticky;
+                bottom: 0vh;
+                                  
+                                    display: flex;
+                                    justify-content: space-between;
+                                }
+                                .chat-footer{
+                                    position: sticky;
+                                    bottom: 0%;
+                                }
+}

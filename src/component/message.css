@@ -1,0 +1,31 @@
+.msg-box{
+    background-color: rgb(190, 187, 187);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 12px;
+    display: inline-block;
+    max-width: 70%;
+    clear: both;
+    margin: 4px 3px;
+    display: flex;
+    flex-direction: column;
+
+}
+.right{
+    float:right;
+    background-color: rgb(250, 216, 216);
+}
+.left{
+    float: left;
+    background-color: rgb(208, 208, 246);
+}
+.username{
+    font-weight: 700;
+    padding: 0px 0px;
+    text-transform: capitalize;
+}
+.user-msg{
+    padding: 0px 10px 0px 20px;
+    overflow-wrap: anywhere;
+    
+}
